@@ -178,4 +178,4 @@ def replace_chain():
     return jsonify(response), 200
 
 # Running the app
-app.run(host = 'http://app.dondernemers.be', port = 5002)
+app.run(host = 'app.dondernemers.be', port = 5002)
